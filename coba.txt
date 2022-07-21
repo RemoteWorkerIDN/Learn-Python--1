@@ -3,3 +3,4 @@ tes ke2 edit file yang ada di github
 tes3 edit file sudah lancar
 tes 4 coba fitur repsotiry github di pycharm
 tes 5 coba fitur belum muncul
+COBA DENGAN SSH!!
