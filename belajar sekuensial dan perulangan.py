@@ -1,6 +1,13 @@
 """
 ini adalah trial python pertama dengan pycharm
 """
+
+"""
+Semua sintaksis dasar bahasa pemrograman terdiri dari
+1. Sekuensial : Langkah perulangan
+2. Percabangan : Langkah melompat jika kondisi terpenuhi
+3. Perulangan : Mengulangi langkah yang sama berkali-kali selama/sampai kondisi terpenuhi
+"""
 # sekuensial
 print('Ibu berkata, "pergi ke toko"')
 print('Budi menjawab, "baik, apa yang harus dibeli"')
