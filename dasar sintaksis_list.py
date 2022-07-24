@@ -13,6 +13,7 @@ list dapat berupa data string maupun int (integral)
 data pada list bersifat dinamis
 artinya kita dapat merubah data pada list secara keseluruhan 
 hanya dengan membuat definisi baru atas list tersebut
+python memiliki fungsi untuk menambah dan mengurangi data pada list secara otomatis
 """
 
 print('\njudul buku pada index tertentu')
