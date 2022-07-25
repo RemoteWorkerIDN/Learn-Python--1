@@ -61,9 +61,21 @@ daftar_buku.pop(-1)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
-print('\nKembalikan value pada list')
+print('\n,Pop()')
 daftar_buku = ['Lord of the Ring', 'Harry Potter', 'Solo Leveling', 'The god of Demon and Evil']
 daftar_buku.pop()
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+"""
+function del bisa digunakan untuk menghapus elemen pada list
+"""
+
+print('\nPrint del')
+daftar_buku = ['Lord of the Ring', 'Harry Potter', 'Solo Leveling', 'The god of Demon and Evil']
+del daftar_buku[0]
+# 0 digunakan untu mendelete elemen pertama pada list
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
 
