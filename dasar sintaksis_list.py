@@ -29,3 +29,41 @@ print('\nMenambahkan data ke dalam list')
 daftar_buku.append('The god of demon and evil')
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+print('\nClear list')
+daftar_buku.clear()
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nKembalikan nilai pada list')
+daftar_buku =['Lord of the Ring', 'Harry Potter', 'Solo Leveling', 'The god of Demon and Evil']
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nGanti elemen pertama pada list')
+daftar_buku[0] = 'Legendary Mechanic'
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPop Satu data')
+# Pop adalah perintah untuk mengambil dan menyimpan satu elemen pada sebuah list
+buku = daftar_buku.pop(1)
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPrint elemen yang diambil')
+buku = daftar_buku.pop(2)
+print(buku)
+# Pop() artinya mengambil elemen terakhir pada satu list, atau bisa juga dituliskan .pop(-1)
+
+print('\nPop baris terakhir')
+daftar_buku.pop(-1)
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nKembalikan value pada list')
+daftar_buku = ['Lord of the Ring', 'Harry Potter', 'Solo Leveling', 'The god of Demon and Evil']
+daftar_buku.pop()
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
